@@ -3,6 +3,7 @@
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+Hi, I'm avid and ready for the challenge.
 
 Thanks for checking out this front-end coding challenge.
 
