@@ -5,6 +5,8 @@
 ## Welcome! 👋
 Hi, I'm avid and ready for the challenge.
 
+kontributor muh-avid / still on the process
+
 -indonesia : ini cukup menantang bagi saya yang latar belakangnya masih ikut bothcamp dan belum terlalu mengusai javaScript, tapi saya yakin bisa menyelesaikan ini hehe (•‿•)
 
 Thanks for checking out this front-end coding challenge.
