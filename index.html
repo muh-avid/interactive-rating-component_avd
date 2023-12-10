@@ -9,56 +9,55 @@
 </head>
 
 <body>
+  
   <!-- Rating state start -->
-  <main>
-    <section class="heading">
-      <img 
-      class="heading__star"
-      src="./images/icon-star.svg"
-      alt="icon star">
-      <h1>How did we do?</h1>
-    </section>
+  <div class="container">
+    <img src="./images/icon-star.svg" alt="" />
+    <h1>How did we do?</h1>
 
-    <section class="paragraf">
-      <p>
-        Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!
-      </p>
-    </section>
+    <p>
+      Please let us know how we did with your support request. All feedback is
+      appreciated to help us improve our offering!
+    </p>
 
-    <section class="button">
-      <div class="button__number">
-        <ul>
-          <li><button>1</button></li>
-          <li><button>2</button></li>
-          <li><button>3</button></li>
-          <li><button>4</button></li>
-          <li><button>5</button></li>
-        </ul>
-      </div>
-      <button>SUBMIT</button>
-    </section>
-    <!-- Rating state end -->
+    <ul>
+      <li><button class="btn">1</button></li>
+      <li><button class="btn">2</button></li>
+      <li><button class="btn">3</button></li>
+      <li><button class="btn">4</button></li>
+      <li><button class="btn">5</button></li>
+    </ul>
 
-    <!-- Thank you state start -->
-    <section>
-      <img src="./images/illustration-thank-you.svg" alt="thank">
-      <p>
-        You selected
-        <span><!-- Add rating here --></span>
-        out of 5
-      </p>
-    </section>
+    <button class="btn-submit" id="submit-rating">Submit</button>
+  </div>
+  <!-- Rating state end -->
 
-    <section>
-      <h2>Thank you!</h2>
-      <p>
-        We appreciate you taking the time to give a rating. If you ever need more support, 
-        don’t hesitate to get in touch!
-      </p>
-    </section>
-    <!-- Thank you state end -->
-  </main>
+  <!-- Thank you state start -->
+  <div class="thank-you hidden">
+    <img src="./images/illustration-thank-you.svg" alt="" />
+    <p class="gray">
+      You selected
+      <span id="rating" style="display: inline-block; margin: 0 0.3rem"
+        >1</span
+      >
+      out of 5
+    </p>
+
+    <h2>Thank you!</h2>
+
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need
+      more support, don’t hesitate to get in touch!
+    </p>
+
+    <button class="btn-submit" id="rate-again">Rate Again</button>
+  </div>
+  <!-- Thank you state end -->
+
+  
+
+  <script src="index.js"></script>
+
   <footer class="footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Muhammad Avid Cahyadi</a>.
