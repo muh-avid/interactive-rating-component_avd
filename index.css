@@ -27,12 +27,7 @@ p {
   color: hsl(217, 12%, 63%);
 }
 
-p.disclaimer {
-  padding: 0 1.5rem;
-  max-width: 400px;
-  margin-bottom: 2rem;
-  text-align: center;
-}
+
 
 img {
   max-width: 100%;
@@ -54,7 +49,7 @@ button {
   cursor: pointer;
 }
 
-.btn {
+.button {
   background-color: hsl(213, 19%, 18%);
   width: 3rem;
   height: 3rem;
@@ -66,11 +61,11 @@ button {
   transition: 0.3s;
 }
 
-.btn:hover {
+.button:hover {
   background-color: hsl(217, 12%, 63%);
 }
 
-.btn:focus {
+.button:focus {
   background-color: hsl(25, 97%, 53%);
 }
 
