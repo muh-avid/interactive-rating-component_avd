@@ -69,7 +69,7 @@ button {
   background-color: hsl(25, 97%, 53%);
 }
 
-.btn-submit {
+.button-submit {
   background-color: hsl(25, 97%, 53%);
   padding: 0.625rem 2rem 0.5rem;
   width: 100%;
@@ -83,7 +83,7 @@ button {
   font-size: 0.9rem;
 }
 
-.btn-submit:hover {
+.button-submit:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
 }
